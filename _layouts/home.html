@@ -1,0 +1,47 @@
+---
+layout: default
+---
+<!DOCTYPE html>
+<html class="wide wow-animation desktop landscape rd-navbar-fixed-linked fp-enabled" lang="en" style="overflow: hidden; height: 100%;">
+    <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">  
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Muli:400,700%7COpen+Sans%7CMerriweather:300,400,700">
+    <link rel="icon" href="{{ site.url }}/assets/img/H.png" type="image/x-icon">
+            
+    <!-- CSS Libraries -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/css/lightgallery-bundle.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ site.url }}/assets/css/style.css">
+
+    <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
+  </head>
+  <body style="overflow: hidden; height: 100%;" class="fp-viewing-home">
+    <div class="ie-panel"><a href="https://windows.microsoft.com/en-US/internet-explorer/"><img src="{{ site.url }}/assets/img/warning_bar_0000_us.jpg" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
+    <div class="preloader loaded">
+      <div class="preloader-body">
+        <div class="cssload-container">
+          <div class="cssload-speeding-wheel"></div>
+        </div>
+        <p>Chargement ...</p>
+      </div>
+    </div>
+    <div class="page animated" style="animation-duration: 500ms;">
+
+      {% include header.html %}
+
+      {{ content }}
+
+      {% include footer.html %}
+
+    </div>
+
+    <div class="snackbars" id="form-output-global"></div>
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/lightgallery.min.js"></script>
+    <script src="{{ site.url }}/assets/js/core.js"></script>
+    <script src="{{ site.url }}/assets/js/script.js"></script>
+	
+	<!--LIVEDEMO_00 -->	
+</body></html>
