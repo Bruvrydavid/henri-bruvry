@@ -8237,12 +8237,24 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 	}
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 1200px) {
 	.parallax-scene-item {
 		display: inline-block;
 		padding: 0 15px;
 	}
-	.parallax-scene-item img {
+	.parallax-scene-item-2 img {
+		max-width: 100%;
+		visibility: hidden;
+	}
+	.parallax-scene-item-2 img {
+		max-width: 100%;
+		visibility: hidden;
+	}
+	.parallax-scene-item-4 img {
+		max-width: 100%;
+		visibility: hidden;
+	}
+	.parallax-scene-item-5 img {
 		max-width: 100%;
 		visibility: hidden;
 	}
@@ -8250,6 +8262,7 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 		margin-top: 15px;
 	}
 }
+
 
 @media (min-width: 992px) {
 	.parallax-scene-item {
